@@ -176,7 +176,6 @@ function searchPokemon() {
     displayPokemonList(filteredPokemon);
 }
 
-// Carga la lista de Pokémon al cargar la página
 window.addEventListener('load', () => {
     displayPokemonList(firstGenerationPokemon);
 });
