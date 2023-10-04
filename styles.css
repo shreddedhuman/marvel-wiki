@@ -1,0 +1,87 @@
+body {
+    background-color: #d8d8d8;
+}
+
+.navbar {
+    background-color: #410047;
+}
+
+.navbar-brand img {
+    max-width: 50%;
+    height: fit-content;
+    font-size: 1.5rem;
+}
+
+.form-control {
+    width: 200px;
+    margin-right: 10px;
+}
+
+#filtroNombre,
+#filtroClase {
+    width: 300px;
+}
+
+#clase-tipo {
+    height: 40px;
+}
+
+#clase-logo {
+    height: 45px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.superheroe-card {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.superheroe-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.superheroe-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.superheroe-card p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.superheroe-card:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 1 ease;
+}
+
+footer {
+    background-color: #410047;
+}
+
+.fa {
+    padding: 1px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
