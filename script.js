@@ -55,8 +55,8 @@ function mostrarSuperheroes(superheroes) {
         superheroeCard.innerHTML = `
             <img src="${superheroe.imagen}" alt="${superheroe.nombre}">
             <h3>${superheroe.nombre}</h3>
-            <img id="clase-logo" src="${superheroe.clase}.png" alt="${superheroe.clase}">
-            <img id="clase-tipo" src="${superheroe.tipo === 'heroe' ? 'heroe.png' : 'villano.png'}" alt="${superheroe.tipo}">
+            <img id="clase-logo" src="./imagenes/${superheroe.clase}.png" alt="${superheroe.clase}">
+            <img id="clase-tipo" src="./imagenes/${superheroe.tipo === 'heroe' ? 'heroe.png' : 'villano.png'}" alt="${superheroe.tipo}">
             <p>Poder: ${superheroe.poder}</p>
             <p>Año de Aparición: ${superheroe.año}</p>
             <p>${superheroe.descripcion}</p>
